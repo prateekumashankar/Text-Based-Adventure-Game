@@ -30,7 +30,7 @@ public class Main {
        case "go":
          if(a.length<2)
          {
-           System.out.println("You should put 1 direction name");
+           System.out.println("You should put 1 direction name");	
          }
          
          else if(a.length==2 && currentLocation.canMove(a[1]))
@@ -40,7 +40,7 @@ public class Main {
          }
          else
          {
-           System.out.println("There is no door, direction does not exist");
+           System.out.println("Uh Oh! There is no door. Unfortunately this direction does not exist");
          }
          break;
        case "look":
